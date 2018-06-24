@@ -1,11 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './Components/index.css';
-import Robotslist from './Components/Robotslist';
 import 'tachyons';
-
-
+import Mainapp from './Containers/Mainapp';
 import registerServiceWorker from './registerServiceWorker';
-
-ReactDOM.render(<Robotslist />, document.getElementById('root'));
+ReactDOM.render(<Mainapp />, document.getElementById('root'));
 registerServiceWorker();
